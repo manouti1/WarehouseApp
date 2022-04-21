@@ -1,0 +1,40 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dis/server.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose",
+    "start": "tsc && node dist/server.js",
+    "lint": "eslint . --ext .ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/morgan": "^1.9.3",
+    "axios": "^0.26.1",
+    "babel-jest": "^27.5.1",
+    "chai": "^4.3.6",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "chai-like": "^1.1.1",
+    "chai-things": "^0.2.0",
+    "eslint": "^8.12.0",
+    "jest": "^27.5.1",
+    "mocha": "^9.2.2",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8"
+  }
+}
